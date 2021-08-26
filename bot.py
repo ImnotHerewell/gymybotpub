@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 
 # vars
 SEARCH_CITY, SELECT_CITY = range(2)
-updater = Updater('1823894112:AAEW3_uIk1K_Uju8Gjvd6n1qRDpbovpPHio')
-owm = OWM('4421353dad4ed558c2a80c85fcb1cf0c')
+updater = Updater('TOKEN')
+owm = OWM('TOKEN')
 reg = owm.city_id_registry()
 
 id_of_city = str()
